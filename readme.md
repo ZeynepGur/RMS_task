@@ -41,5 +41,18 @@ In this project, a decision was made to use only one feature file due to the nat
 
 In this project, a FailedTestRunner is used to record and retry failed test cases. Additionally, the maven-cucumber-reporting plugin generates an HTML report in the target folder at the end of the test run.
 
+### Running instructions
+*JDK and Maven required to run with below code*
+- Download .zip file and 'Archive utility'
+- navigate to root directory
+```
+cd C:\Path\to\Project
+```
+
+- run following command
+```
+mvn test
+```
+
 
 

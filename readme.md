@@ -20,9 +20,9 @@ Based on the requirement, the following tools and framework were selected to cre
 The project has the following folders:
 
 - `runner` folder: Contains the Cucumber runner class `CukesRunner.java`, which specifies the configuration and location of feature files and step definitions. Also contains `FailedTestRunner` class which is responsible for handling and managing failed test cases during test execution.
-- `stepdefinitions` folder: Contains the step definitions class `MediaApiStepDefs.java`, where the step definitions are defined for the Cucumber scenarios.
+- `stepdefinitions` folder: Contains the step definitions class `MediaApiStepDefs.java`, where the step definitions are defined for the Cucumber scenarios. 
 - `utilities` folder: Contains the utility class `ConfigurationReader.java`, which provides methods to read configuration properties (endpoint) from the `configuration.properties`
-- `resources` folder: Contains the feature files in Gherkin format (`MediaApi.feature`)
+- `resources` folder: Contains the feature files in Gherkin format `MediaApi.feature` and `ManualTestCases.feature` (there is no step definitions for this one)
 - `pom.xml` file: Contains required dependencies and plugins
 
 #### Dependencies
